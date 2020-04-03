@@ -1,0 +1,15 @@
+org/ghxiao/kafka/avro/model/SimpleCard.class
+org/ghxiao/kafka/avro/model/ShakespeareKey.class
+org/ghxiao/kafka/avro/model/ShakespeareKey$1.class
+org/ghxiao/kafka/avro/model/CardSuit$Builder.class
+org/ghxiao/kafka/avro/model/CardSuit$1.class
+org/ghxiao/kafka/avro/model/SimpleCard$1.class
+org/ghxiao/kafka/avro/model/ShakespeareKey$Builder.class
+org/ghxiao/kafka/avro/model/ShakespeareValue$1.class
+org/ghxiao/kafka/avro/model/ShakespeareValue.class
+org/ghxiao/kafka/avro/model/CardSuit.class
+org/ghxiao/kafka/basic/KafkaProducerDemo.class
+org/ghxiao/kafka/avro/model/ShakespeareValue$Builder.class
+org/ghxiao/kafka/avro/AvroReadWrite.class
+org/ghxiao/kafka/avro/model/SimpleCard$Builder.class
+org/ghxiao/kafka/basic/KafkaConsumerDemo.class

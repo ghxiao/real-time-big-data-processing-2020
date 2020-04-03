@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TypeScript Greeter</title>
+    <script src="https://unpkg.com/@reactivex/rxjs@6.3.3/dist/global/rxjs.umd.js">
+    </script>
+</head>
+<body>
+<button>Click Me!</button>
+<!--<script>-->
+<!--    let count = 0;-->
+<!--    const rate = 1000;-->
+<!--    let lastClick = Date.now() - rate;-->
+<!--    const button = document.querySelector('button');-->
+<!--    button.addEventListener('click', (event) => {-->
+<!--        if (Date.now() - lastClick >= rate) {-->
+<!--            count += event.clientX;-->
+<!--            console.log(count);-->
+<!--            lastClick = Date.now();-->
+<!--        }-->
+<!--    });-->
+<!--</script>-->
+<script>
+    // const observable = new rxjs.Observable(subscriber => {
+    //     subscriber.next(1);
+    //     subscriber.next(2);
+    //     subscriber.next(3);
+    //     setTimeout(() => {
+    //         subscriber.next(4);
+    //         subscriber.complete();
+    //     }, 1000);
+    // });
+    // console.log('just before subscribe');
+    // observable.subscribe({
+    //     next(x) { console.log('got value ' + x); },
+    //     error(err) { console.error('something wrong occurred: ' + err); },
+    //     complete() { console.log('done'); }
+    // });
+    // console.log('just after subscribe');
+
+    fetch('https://api.github.com')
+        .then(r => r.json())
+        .then(x => console.log(x))
+
+    async function f() {
+        r = await fetch('https://api.github.com');
+        r = await r.json();
+        console.log(r)
+    }
+    f();
+
+</script>
+</body>
+</html>
